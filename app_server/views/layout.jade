@@ -1,0 +1,55 @@
+doctype html
+html(lang='en')
+  head
+    // Theme Made By www.w3schools.com - No Copyright
+    title SCB
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(href='https://fonts.googleapis.com/css?family=Lato', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='stylesheets/style.css')
+    link(href='https://fonts.googleapis.com/css?family=Nunito|Permanent+Marker|Rock+Salt|Shrikhand|Special+Elite', rel='stylesheet')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+  body#myPage(data-spy='scroll', data-target='.navbar', data-offset='50')
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.my-brand(href='#myPage')
+            strong SCB Home
+        .collapse.navbar-collapse.my-navbar.navbar-inner
+          ul.nav.nav-center.navbar-nav
+            // <ul class="nav navbar-nav navbar-right">
+            li
+              a(href='#home') HOME
+            li
+              a(href='#about') ABOUT
+            li.dropdown
+              a.dropdown-toggle(data-toggle='dropdown', href='#')
+                | MEDIA
+                span.caret
+              ul.dropdown-menu
+                li
+                  a(href='#media') Audio
+                li
+                  a(href='#media') Video
+                li
+                  a(href='#media') Photos
+            li
+              a(href='#calendar') CALENDAR
+            li
+              a(href='#shop') SHOP
+            li
+              a(href='#press') PRESS
+            li
+              a(href='#contact') CONTACT
+            li
+              a(href='#')
+                span.glyphicon.glyphicon-search
+          
+    block content
