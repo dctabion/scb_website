@@ -240,10 +240,26 @@ textarea {
   margin: 5px;
   position: relative;
   overflow: hidden;
+  @media (max-width: 600px) {
+    height: 450px;
+  }
 }
 
 .album-panel p {
-  font-size: 14px;
+  font-size: 12px;
+
+  @media (max-width: 600px) {
+    font-size: 10px;
+  }
+
+
+}
+
+.album-panel h3 {
+  @media (max-width: 600px) {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
 }
 
 .album-col-clear {
