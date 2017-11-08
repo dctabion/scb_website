@@ -20,7 +20,14 @@ h3, h4 {
 }
 .container {
     padding: 80px 120px;
+
+    @media (max-width: 600px) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
 }
+
 
 .person {
     border: 10px solid transparent;
@@ -304,8 +311,12 @@ textarea {
   // border-top: thin solid #D3D3D3;
 }
 
-.calendar-header {
+.sub-heading {
   font-size: 1.3em;
+  font-weight: bold;
+}
+
+.calendar_header {
   margin-bottom: 40px;
   margin-top: 80px;
 }
