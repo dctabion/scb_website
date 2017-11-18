@@ -232,91 +232,14 @@ textarea {
   padding-right: 0px;
 }
 
-.album-panel {
-  cursor: pointer;
-  width: 30%;
-  height: 350px;
-  float: left;
-  margin: 5px;
-  position: relative;
-  overflow: hidden;
-  @media (max-width: 600px) {
-    height: 450px;
-  }
-}
-
-.album-panel p {
-  font-size: 12px;
-
-  @media (max-width: 800px) {
-    font-size: 10px;
-  }
-
-
-}
-
-.album-panel h3 {
-  @media (max-width: 800px) {
-    font-size: 10px;
-    margin-bottom: 0px;
-  }
-}
-
-.album-col-clear {
-  clear: both;
-}
-
-.album-image {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-}
-
-.album-caption {
-  // position: absolute;
-  // left: 0;
-  // z-index: 100;
-
-  // font-family: Tahoma;
-  // font-size: .5em;
-  font-family: Tahoma;
-  font-size: .5em;
-  background-color: rgba(0,0,0,0.8);
-  position: absolute;
-  color: #fff;
-  z-index: 100;
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-  left: 0;
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  text-align: left;
-  padding: 15px;
-}
 .album-buttons {
   max-width: 200px;
   margin: auto;
 }
 
-.album-panel:hover .album-fade-caption {
-  opacity: 1;
-}
-
-
-
-
-
 .album-panel-mkii {
   // border: 2px solid red;
+  // margin: 5px;
 }
 
 .album-panel-mkii img {
@@ -357,70 +280,47 @@ textarea {
 /* Large Devices, Wide Screens */
    @media only screen and (max-width : 1200px) {
      .album-caption-mkii {
-       font-size: 100%;
+       // color: red;
+       font-size: 75%;
      }
    }
 
    /* Medium Devices, Desktops */
    @media only screen and (max-width : 992px) {
-     .album-caption-mkii h3 {
-       font-size: 12px;
-       margin-bottom: 4px;
-     }
-     .album-caption-mkii p {
-       font-size: 10px;
+     .album-caption-mkii {
+       // color: orange;
      }
    }
 
    /* Small Devices, Tablets */
    @media only screen and (max-width : 768px) {
-     .album-caption-mkii h3 {
-       // color: pink;
-       font-size: 12px;
-       margin-bottom: 4px;
-     }
-     .album-caption-mkii p {
-       font-size: 10px;
+     .album-caption-mkii {
+       color: yellow;
      }
    }
 
    /* Extra Small Devices, Phones */
    @media only screen and (max-width : 480px) {
-
+     .album-caption-mkii {
+       color: green;
+     }
    }
 
    /* Custom, iPhone Retina */
    @media only screen and (max-width : 320px) {
-
+     .album-caption-mkii {
+       color: blue;
+     }
    }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 765px) {
-  .album-panel-mkii img {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
+// @media(max-width: 765px) {
+//   .album-panel-mkii img {
+//     width: 60%;
+//     margin: 0 auto;
+//   }
+// }
 
 .album-image-mkii
  {
